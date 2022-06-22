@@ -6,5 +6,8 @@ public class Main {
         System.out.print("Principal: ");
         int principal = scanner.nextInt();
         System.out.println("The principal is " + principal);
+        System.out.print("Annual Interest Rate: ");
+        float interestRate = scanner.nextFloat();
+        System.out.println("Here dat interest rate: " + interestRate);
     }
 }
