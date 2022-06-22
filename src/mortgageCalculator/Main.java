@@ -1,10 +1,10 @@
 package mortgageCalculator;
-
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        int x = 1;
-        int y = 2;
-        int sum = x + y;
-        System.out.println(sum);
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Principal: ");
+        int principal = scanner.nextInt();
+        System.out.println("The principal is " + principal);
     }
 }
